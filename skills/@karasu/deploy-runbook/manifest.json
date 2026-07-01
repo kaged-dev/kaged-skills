@@ -1,0 +1,13 @@
+{
+  "name": "deploy-runbook",
+  "namespace": "@karasu",
+  "version": "1.0.0",
+  "description": "Step-by-step deployment runbook skill. Guides the agent through version bump, changelog, build, tag, and publish without improvising.",
+  "category": "devops",
+  "tags": ["release", "deploy", "ci", "runbook"],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

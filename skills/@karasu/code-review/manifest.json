@@ -1,0 +1,14 @@
+{
+  "name": "code-review",
+  "namespace": "@karasu",
+  "version": "1.0.0",
+  "description": "Systematic code review methodology for correctness, security, and style. Reviews against project specs, not personal preference.",
+  "category": "code-quality",
+  "tags": ["review", "security", "best-practices", "pr"],
+  "files": [
+    "SKILL.md",
+    "checklist.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}
