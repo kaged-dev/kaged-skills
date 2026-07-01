@@ -1,0 +1,21 @@
+{
+  "name": "content-creator",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks.",
+  "category": "marketing",
+  "tags": [
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/content_calendar_template.md",
+    "references/brand_guidelines.md",
+    "references/content_frameworks.md",
+    "references/social_media_optimization.md",
+    "scripts/brand_voice_analyzer.py",
+    "scripts/seo_optimizer.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

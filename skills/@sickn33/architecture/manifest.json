@@ -1,0 +1,20 @@
+{
+  "name": "architecture",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.",
+  "category": "architecture",
+  "tags": [
+    "architecture"
+  ],
+  "files": [
+    "SKILL.md",
+    "context-discovery.md",
+    "examples.md",
+    "pattern-selection.md",
+    "patterns-reference.md",
+    "trade-off-analysis.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

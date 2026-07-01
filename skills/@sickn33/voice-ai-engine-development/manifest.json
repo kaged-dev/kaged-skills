@@ -1,0 +1,23 @@
+{
+  "name": "voice-ai-engine-development",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling and multi-provider support",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "examples/complete_voice_engine.py",
+    "examples/gemini_agent_example.py",
+    "examples/interrupt_system_example.py",
+    "references/common_pitfalls.md",
+    "references/provider_comparison.md",
+    "templates/base_worker_template.py",
+    "templates/multi_provider_factory_template.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

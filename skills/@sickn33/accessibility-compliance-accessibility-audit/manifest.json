@@ -1,0 +1,16 @@
+{
+  "name": "accessibility-compliance-accessibility-audit",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers, and provide remediation guidance.",
+  "category": "design",
+  "tags": [
+    "design"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

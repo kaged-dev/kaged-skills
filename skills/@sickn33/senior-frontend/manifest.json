@@ -1,0 +1,21 @@
+{
+  "name": "senior-frontend",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code...",
+  "category": "frontend",
+  "tags": [
+    "frontend"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/frontend_best_practices.md",
+    "references/nextjs_optimization_guide.md",
+    "references/react_patterns.md",
+    "scripts/bundle_analyzer.py",
+    "scripts/component_generator.py",
+    "scripts/frontend_scaffolder.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

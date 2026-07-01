@@ -1,0 +1,27 @@
+{
+  "name": "wiki-builder",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Create and maintain reusable research wikis with source provenance, configurable structure, and local markdown outputs.",
+  "category": "productivity",
+  "tags": [
+    "productivity"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/wiki-flavors.md",
+    "scripts/init_wiki.sh",
+    "templates/index.md",
+    "templates/maintenance-log.md",
+    "templates/prompts/compile-concept-page.md",
+    "templates/prompts/compile-index.md",
+    "templates/prompts/compile-source-page.md",
+    "templates/prompts/lint-wiki.md",
+    "templates/prompts/query-and-file.md",
+    "templates/sources.md",
+    "templates/wiki.config.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

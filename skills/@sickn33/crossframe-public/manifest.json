@@ -1,0 +1,33 @@
+{
+  "name": "crossframe-public",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.",
+  "category": "workflow",
+  "tags": [
+    "workflow"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-public-smoke-tests.md",
+    "examples/failure-samples.md",
+    "examples/institutional-compliance-case.md",
+    "examples/platform-appeal-case.md",
+    "examples/public-policy-case.md",
+    "protocols/institutional-compliance-protocol.md",
+    "protocols/platform-appeal-protocol.md",
+    "protocols/public-issue-protocol.md",
+    "protocols/public-policy-protocol.md",
+    "references/ai-compliance-performance.md",
+    "references/public-evidence-ladder.md",
+    "references/risk-language-boundaries.md",
+    "references/source-and-evidence-rules.md",
+    "templates/action-boundary.md",
+    "templates/evidence-boundary-summary.md",
+    "templates/public-comment-draft.md",
+    "templates/public-institution-diagnosis.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

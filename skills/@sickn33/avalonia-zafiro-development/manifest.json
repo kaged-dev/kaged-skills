@@ -1,0 +1,20 @@
+{
+  "name": "avalonia-zafiro-development",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "SKILL.md",
+    "avalonia-reactive-rules.md",
+    "core-technical-skills.md",
+    "naming-standards.md",
+    "patterns.md",
+    "zafiro-shortcuts.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

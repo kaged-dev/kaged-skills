@@ -1,0 +1,25 @@
+{
+  "name": "youtube-notetaker",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Turn YouTube talks into local study notes with slides, transcripts, editable annotations, and a markdown-backed viewer.",
+  "category": "media",
+  "tags": [
+    "media"
+  ],
+  "files": [
+    "SKILL.md",
+    "reference/artifact.html",
+    "scripts/contact_sheet.py",
+    "scripts/detect_slides.sh",
+    "scripts/download.sh",
+    "scripts/extract_slides.py",
+    "scripts/serve.py",
+    "scripts/setup.sh",
+    "scripts/verify.sh",
+    "scripts/vtt_to_transcript.py",
+    "scripts/write_library_item.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "backend-dev-guidelines",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.",
+  "category": "backend",
+  "tags": [
+    "backend"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/architecture-overview.md",
+    "resources/async-and-errors.md",
+    "resources/complete-examples.md",
+    "resources/configuration.md",
+    "resources/database-patterns.md",
+    "resources/middleware-guide.md",
+    "resources/routing-and-controllers.md",
+    "resources/sentry-and-monitoring.md",
+    "resources/services-and-repositories.md",
+    "resources/testing-guide.md",
+    "resources/validation-patterns.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

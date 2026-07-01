@@ -1,0 +1,19 @@
+{
+  "name": "apify-actorization",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Actorization converts existing software into reusable serverless applications compatible with the Apify platform. Actors are programs packaged as Docker images that accept well-defined JSON input, perform an action, and optionally produce structured JSON output.",
+  "category": "workflow",
+  "tags": [
+    "workflow"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/cli-actorization.md",
+    "references/js-ts-actorization.md",
+    "references/python-actorization.md",
+    "references/schemas-and-output.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

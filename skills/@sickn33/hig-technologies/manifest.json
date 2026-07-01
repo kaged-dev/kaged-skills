@@ -1,0 +1,43 @@
+{
+  "name": "hig-technologies",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/airplay.md",
+    "references/always-on.md",
+    "references/apple-pay.md",
+    "references/augmented-reality.md",
+    "references/carekit.md",
+    "references/carplay.md",
+    "references/game-center.md",
+    "references/generative-ai.md",
+    "references/healthkit.md",
+    "references/homekit.md",
+    "references/icloud.md",
+    "references/id-verifier.md",
+    "references/imessage-apps-and-stickers.md",
+    "references/in-app-purchase.md",
+    "references/live-photos.md",
+    "references/mac-catalyst.md",
+    "references/machine-learning.md",
+    "references/maps.md",
+    "references/nfc.md",
+    "references/photo-editing.md",
+    "references/researchkit.md",
+    "references/shareplay.md",
+    "references/shazamkit.md",
+    "references/sign-in-with-apple.md",
+    "references/siri.md",
+    "references/tap-to-pay-on-iphone.md",
+    "references/voiceover.md",
+    "references/wallet.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

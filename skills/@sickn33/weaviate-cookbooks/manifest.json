@@ -1,0 +1,26 @@
+{
+  "name": "weaviate-cookbooks",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Build Weaviate AI apps from official cookbook blueprints for RAG, agentic RAG, data exploration, multimodal PDF search, async clients, and frontends.",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/advanced_rag.md",
+    "references/agentic_rag.md",
+    "references/async_client.md",
+    "references/basic_agent.md",
+    "references/basic_rag.md",
+    "references/data_explorer.md",
+    "references/environment_requirements.md",
+    "references/frontend_interface.md",
+    "references/pdf_multimodal_rag.md",
+    "references/project_setup.md",
+    "references/query_agent_chatbot.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

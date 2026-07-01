@@ -1,0 +1,18 @@
+{
+  "name": "quality-nonconformance",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing.",
+  "category": "business",
+  "tags": [
+    "business"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/communication-templates.md",
+    "references/decision-frameworks.md",
+    "references/edge-cases.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

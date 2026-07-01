@@ -1,0 +1,28 @@
+{
+  "name": "context-agent",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte.",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/compression-rules.md",
+    "references/context-format.md",
+    "scripts/active_context.py",
+    "scripts/compressor.py",
+    "scripts/config.py",
+    "scripts/context_loader.py",
+    "scripts/context_manager.py",
+    "scripts/models.py",
+    "scripts/project_registry.py",
+    "scripts/requirements.txt",
+    "scripts/search.py",
+    "scripts/session_parser.py",
+    "scripts/session_summary.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

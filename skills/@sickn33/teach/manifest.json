@@ -1,0 +1,19 @@
+{
+  "name": "teach",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Teach the user a new skill or concept, within this workspace.",
+  "category": "education",
+  "tags": [
+    "education"
+  ],
+  "files": [
+    "GLOSSARY-FORMAT.md",
+    "LEARNING-RECORD-FORMAT.md",
+    "MISSION-FORMAT.md",
+    "RESOURCES-FORMAT.md",
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

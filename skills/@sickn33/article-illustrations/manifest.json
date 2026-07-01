@@ -1,0 +1,15 @@
+{
+  "name": "article-illustrations",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors.",
+  "category": "design",
+  "tags": [
+    "design"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

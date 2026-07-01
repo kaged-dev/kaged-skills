@@ -1,0 +1,18 @@
+{
+  "name": "container-security-hardening",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Harden Docker/container images and runtime deployments with secure base images, non-root users, CVE scanning, SBOM/signing, seccomp/AppArmor, and Kubernetes pod security controls. Use for Dockerfile security reviews, container CVEs, image scanning, distroless images,...",
+  "category": "security",
+  "tags": [
+    "security"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/base-image-comparison.md",
+    "references/kubernetes-pod-security.md",
+    "references/seccomp-profile-template.json"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

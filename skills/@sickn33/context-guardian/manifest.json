@@ -1,0 +1,18 @@
+{
+  "name": "context-guardian",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao.",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/extraction-protocol.md",
+    "references/verification-checklist.md",
+    "scripts/context_snapshot.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

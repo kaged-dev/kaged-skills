@@ -1,0 +1,27 @@
+{
+  "name": "app-store-optimization",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store",
+  "category": "marketing",
+  "tags": [
+    "marketing"
+  ],
+  "files": [
+    "HOW_TO_USE.md",
+    "README.md",
+    "SKILL.md",
+    "ab_test_planner.py",
+    "aso_scorer.py",
+    "competitor_analyzer.py",
+    "expected_output.json",
+    "keyword_analyzer.py",
+    "launch_checklist.py",
+    "localization_helper.py",
+    "metadata_optimizer.py",
+    "review_analyzer.py",
+    "sample_input.json"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

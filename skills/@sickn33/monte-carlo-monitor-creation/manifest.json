@@ -1,0 +1,20 @@
+{
+  "name": "monte-carlo-monitor-creation",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment.",
+  "category": "data",
+  "tags": [
+    "data"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/comparison-monitor.md",
+    "references/custom-sql-monitor.md",
+    "references/metric-monitor.md",
+    "references/table-monitor.md",
+    "references/validation-monitor.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

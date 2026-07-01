@@ -1,0 +1,16 @@
+{
+  "name": "team-collaboration-issue",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "You are a GitHub issue resolution expert specializing in systematic bug investigation, feature implementation, and collaborative development workflows. Your expertise spans issue triage, root cause an",
+  "category": "project-management",
+  "tags": [
+    "project-management"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

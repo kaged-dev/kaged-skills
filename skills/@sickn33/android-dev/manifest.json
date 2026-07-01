@@ -1,0 +1,21 @@
+{
+  "name": "android-dev",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Production-grade Android app development guide covering native (Kotlin/Java), cross-platform (Flutter, RN, KMM), and hybrid architectures.",
+  "category": "mobile",
+  "tags": [
+    "mobile"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/flutter.md",
+    "references/hybrid.md",
+    "references/java-android.md",
+    "references/kmm.md",
+    "references/native-android.md",
+    "references/react-native.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

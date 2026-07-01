@@ -1,0 +1,22 @@
+{
+  "name": "planning-with-files",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Work like Manus: Use persistent markdown files as your 'working memory on disk.'",
+  "category": "project-management",
+  "tags": [
+    "project-management"
+  ],
+  "files": [
+    "SKILL.md",
+    "examples.md",
+    "reference.md",
+    "scripts/check-complete.sh",
+    "scripts/init-session.sh",
+    "templates/findings.md",
+    "templates/progress.md",
+    "templates/task_plan.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

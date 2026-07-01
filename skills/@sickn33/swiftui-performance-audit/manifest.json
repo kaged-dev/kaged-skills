@@ -1,0 +1,23 @@
+{
+  "name": "swiftui-performance-audit",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Audit SwiftUI performance issues from code review and profiling evidence.",
+  "category": "mobile",
+  "tags": [
+    "mobile"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/code-smells.md",
+    "references/demystify-swiftui-performance-wwdc23.md",
+    "references/optimizing-swiftui-performance-instruments.md",
+    "references/profiling-intake.md",
+    "references/report-template.md",
+    "references/understanding-hangs-in-your-app.md",
+    "references/understanding-improving-swiftui-performance.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

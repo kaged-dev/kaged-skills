@@ -1,0 +1,20 @@
+{
+  "name": "go-rod-master",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "SKILL.md",
+    "examples/basic_scrape.go",
+    "examples/concurrent_pages.go",
+    "examples/request_hijacking.go",
+    "examples/stealth_page.go",
+    "references/api-reference.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

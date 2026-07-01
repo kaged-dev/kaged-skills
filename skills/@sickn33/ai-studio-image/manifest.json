@@ -1,0 +1,22 @@
+{
+  "name": "ai-studio-image",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/prompt-engineering.md",
+    "references/setup-guide.md",
+    "scripts/config.py",
+    "scripts/generate.py",
+    "scripts/prompt_engine.py",
+    "scripts/requirements.txt",
+    "scripts/templates.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

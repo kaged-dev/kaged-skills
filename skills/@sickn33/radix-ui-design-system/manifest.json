@@ -1,0 +1,19 @@
+{
+  "name": "radix-ui-design-system",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.",
+  "category": "frontend",
+  "tags": [
+    "frontend"
+  ],
+  "files": [
+    "SKILL.md",
+    "examples/README.md",
+    "examples/dialog-example.tsx",
+    "examples/dropdown-example.tsx",
+    "templates/component-template.tsx.template"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

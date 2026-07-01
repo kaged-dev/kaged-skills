@@ -1,0 +1,16 @@
+{
+  "name": "e2e-testing-patterns",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.",
+  "category": "testing",
+  "tags": [
+    "testing"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

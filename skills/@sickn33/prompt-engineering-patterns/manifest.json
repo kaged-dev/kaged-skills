@@ -1,0 +1,23 @@
+{
+  "name": "prompt-engineering-patterns",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/few-shot-examples.json",
+    "assets/prompt-template-library.md",
+    "references/chain-of-thought.md",
+    "references/few-shot-learning.md",
+    "references/prompt-optimization.md",
+    "references/prompt-templates.md",
+    "references/system-prompts.md",
+    "scripts/optimize-prompt.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

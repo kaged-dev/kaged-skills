@@ -1,0 +1,19 @@
+{
+  "name": "vercel-react-view-transitions",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Guide React and Next.js view transitions, shared element animations, route transitions, transition types, and reduced-motion-safe UI state animation.",
+  "category": "frontend",
+  "tags": [
+    "frontend"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/css-recipes.md",
+    "references/implementation.md",
+    "references/nextjs.md",
+    "references/patterns.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

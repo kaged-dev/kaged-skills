@@ -1,0 +1,18 @@
+{
+  "name": "web-scraper",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.",
+  "category": "data",
+  "tags": [
+    "data"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/data-transforms.md",
+    "references/extraction-patterns.md",
+    "references/output-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

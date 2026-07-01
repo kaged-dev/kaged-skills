@@ -1,0 +1,21 @@
+{
+  "name": "cpp-pro",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.",
+  "category": "languages",
+  "tags": [
+    "languages"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/build-tooling.md",
+    "references/concurrency.md",
+    "references/memory-performance.md",
+    "references/modern-cpp.md",
+    "references/templates.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

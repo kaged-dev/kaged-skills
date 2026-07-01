@@ -1,0 +1,16 @@
+{
+  "name": "papers-skill",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Skill for academic research workflows: search Semantic Scholar (200M+ papers), inspect citations, download arXiv PDFs, and extract PDF text. Bundles a self-contained Python CLI.",
+  "category": "education",
+  "tags": [
+    "education"
+  ],
+  "files": [
+    "SKILL.md",
+    "scripts/papers.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

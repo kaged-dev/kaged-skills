@@ -1,0 +1,25 @@
+{
+  "name": "frontend-dev-guidelines",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data.",
+  "category": "frontend",
+  "tags": [
+    "frontend"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/common-patterns.md",
+    "resources/complete-examples.md",
+    "resources/component-patterns.md",
+    "resources/data-fetching.md",
+    "resources/file-organization.md",
+    "resources/loading-and-error-states.md",
+    "resources/performance.md",
+    "resources/routing-guide.md",
+    "resources/styling-guide.md",
+    "resources/typescript-standards.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

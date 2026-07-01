@@ -1,0 +1,21 @@
+{
+  "name": "skill-installer",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao.",
+  "category": "meta",
+  "tags": [
+    "meta"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/known-locations.md",
+    "scripts/detect_skills.py",
+    "scripts/install_skill.py",
+    "scripts/package_skill.py",
+    "scripts/requirements.txt",
+    "scripts/validate_skill.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

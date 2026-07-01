@@ -1,0 +1,20 @@
+{
+  "name": "setup-matt-pocock-skills",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "SKILL.md",
+    "domain.md",
+    "issue-tracker-github.md",
+    "issue-tracker-gitlab.md",
+    "issue-tracker-local.md",
+    "triage-labels.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

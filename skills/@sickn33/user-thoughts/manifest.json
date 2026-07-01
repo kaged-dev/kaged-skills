@@ -1,0 +1,38 @@
+{
+  "name": "user-thoughts",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Persist user decisions and project constraints to mdbase across sessions. Trigger on /user-thoughts or /ustht, or when the user discusses architecture, tech stack, rules, UI/UX, or project memory.",
+  "category": "frontend",
+  "tags": [
+    "frontend"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/Runtime-Template/README.ai.md",
+    "assets/Runtime-Template/define.ini",
+    "assets/Runtime-Template/mdbase/README.ai.md",
+    "assets/Runtime-Template/mdbase/backlog.md",
+    "assets/Runtime-Template/mdbase/details/dev-stack.md",
+    "assets/Runtime-Template/mdbase/details/general.md",
+    "assets/Runtime-Template/mdbase/details/plans.md",
+    "assets/Runtime-Template/mdbase/details/rules.md",
+    "assets/Runtime-Template/mdbase/details/ui/details.md",
+    "assets/Runtime-Template/mdbase/details/ui/outline.md",
+    "references/commands.md",
+    "references/edge-cases.md",
+    "references/safety.md",
+    "references/sortin.md",
+    "scripts/common.py",
+    "scripts/ignore_ops.py",
+    "scripts/init.py",
+    "scripts/show_mdbase.py",
+    "scripts/show_raw.py",
+    "scripts/sortin.py",
+    "scripts/status.py",
+    "scripts/toggle.py",
+    "scripts/write_raw.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

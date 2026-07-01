@@ -1,0 +1,27 @@
+{
+  "name": "crossframe-review",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.",
+  "category": "workflow",
+  "tags": [
+    "workflow"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-review-smoke-tests.md",
+    "examples/boundary-review-case.md",
+    "examples/failure-review-case.md",
+    "examples/normal-review-case.md",
+    "protocols/article-review-protocol.md",
+    "protocols/review-protocol.md",
+    "references/case-law.md",
+    "references/evidence-boundary-checklist.md",
+    "references/failure-taxonomy.md",
+    "references/review-rubric.md",
+    "templates/review-report.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

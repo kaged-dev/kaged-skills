@@ -1,0 +1,15 @@
+{
+  "name": "vibe-code-auditor",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.",
+  "category": "code-quality",
+  "tags": [
+    "code-quality"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

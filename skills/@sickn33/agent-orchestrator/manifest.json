@@ -1,0 +1,21 @@
+{
+  "name": "agent-orchestrator",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Meta-skill que orquestra todos os agentes do ecossistema. Scan automatico de skills, match por capacidades, coordenacao de workflows multi-skill e registry management.",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/capability-taxonomy.md",
+    "references/orchestration-patterns.md",
+    "scripts/match_skills.py",
+    "scripts/orchestrate.py",
+    "scripts/requirements.txt",
+    "scripts/scan_registry.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

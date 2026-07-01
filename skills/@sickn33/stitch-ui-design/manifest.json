@@ -1,0 +1,18 @@
+{
+  "name": "stitch-ui-design",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.",
+  "category": "design",
+  "tags": [
+    "design"
+  ],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "references/advanced-techniques.md",
+    "references/prompt-examples.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

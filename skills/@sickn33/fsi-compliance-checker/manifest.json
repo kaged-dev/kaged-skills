@@ -1,0 +1,17 @@
+{
+  "name": "fsi-compliance-checker",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation.",
+  "category": "security",
+  "tags": [
+    "security"
+  ],
+  "files": [
+    "SKILL.md",
+    "mas-trm.md",
+    "pci-dss.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "007",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project.",
+  "category": "security",
+  "tags": [
+    "security"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/ai-agent-security.md",
+    "references/api-security-patterns.md",
+    "references/incident-playbooks.md",
+    "references/owasp-checklists.md",
+    "references/stride-pasta-guide.md",
+    "scripts/config.py",
+    "scripts/full_audit.py",
+    "scripts/quick_scan.py",
+    "scripts/requirements.txt",
+    "scripts/scanners/__init__.py",
+    "scripts/scanners/dependency_scanner.py",
+    "scripts/scanners/injection_scanner.py",
+    "scripts/scanners/secrets_scanner.py",
+    "scripts/score_calculator.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

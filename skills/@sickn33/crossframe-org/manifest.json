@@ -1,0 +1,36 @@
+{
+  "name": "crossframe-org",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.",
+  "category": "business",
+  "tags": [
+    "business"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-org-smoke-tests.md",
+    "examples/bad-output-vs-good-output.md",
+    "examples/middle-manager-depletion-case.md",
+    "examples/project-failure-case.md",
+    "examples/retrospective-distortion-case.md",
+    "protocols/feedback-writeback-protocol.md",
+    "protocols/low-risk-pilot-protocol.md",
+    "protocols/org-diagnostic-protocol.md",
+    "protocols/retrospective-redesign-protocol.md",
+    "references/anti-chicken-soup-guardrails.md",
+    "references/middle-manager-depletion.md",
+    "references/org-failure-signals.md",
+    "references/org-routing-map.md",
+    "references/responsibility-authorization-chain.md",
+    "templates/feedback-writeback-plan.md",
+    "templates/low-risk-pilot-plan.md",
+    "templates/org-diagnostic-memo.md",
+    "templates/output-selector.md",
+    "templates/retrospective-redesign-recommendation.md",
+    "templates/stop-condition-card.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "crossframe-teach",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises.",
+  "category": "content",
+  "tags": [
+    "content"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/smoke-tests.md",
+    "examples/chengjie-huiliu.md",
+    "examples/failure-patterns.md",
+    "examples/love-open-action.md",
+    "examples/open-assertion.md",
+    "protocols/teach-protocol.md",
+    "references/teaching-fidelity.md",
+    "templates/concept-lesson.md",
+    "templates/micro-exercises.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

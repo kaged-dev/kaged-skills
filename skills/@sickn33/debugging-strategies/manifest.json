@@ -1,0 +1,16 @@
+{
+  "name": "debugging-strategies",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.",
+  "category": "testing",
+  "tags": [
+    "testing"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

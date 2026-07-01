@@ -1,0 +1,28 @@
+{
+  "name": "hig-inputs",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/apple-pencil-and-scribble.md",
+    "references/camera-control.md",
+    "references/digital-crown.md",
+    "references/eyes.md",
+    "references/focus-and-selection.md",
+    "references/game-controls.md",
+    "references/gestures.md",
+    "references/gyro-and-accelerometer.md",
+    "references/keyboards.md",
+    "references/nearby-interactions.md",
+    "references/pointing-devices.md",
+    "references/remotes.md",
+    "references/spatial-interactions.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

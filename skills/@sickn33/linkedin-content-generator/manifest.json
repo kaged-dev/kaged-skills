@@ -1,0 +1,22 @@
+{
+  "name": "linkedin-content-generator",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "AI-powered LinkedIn content suite: generate posts, carousels, newsletters, and 30-day calendars with niche-specific SEO rules and a reinforcement-learning personal memory system.",
+  "category": "marketing",
+  "tags": [
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "scripts/generate_calendar.py",
+    "scripts/generate_carousel.py",
+    "scripts/generate_newsletter.py",
+    "scripts/generate_post.py",
+    "scripts/memory.md",
+    "scripts/memory_manager.py",
+    "scripts/utils.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

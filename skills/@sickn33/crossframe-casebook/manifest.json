@@ -1,0 +1,30 @@
+{
+  "name": "crossframe-casebook",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes.",
+  "category": "content",
+  "tags": [
+    "content"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-casebook-smoke-tests.md",
+    "examples/failure-samples.md",
+    "examples/organization-case.md",
+    "examples/public-dispute-case.md",
+    "examples/relationship-case.md",
+    "protocols/casebook-build-protocol.md",
+    "protocols/material-boundary-protocol.md",
+    "protocols/mechanism-extraction-protocol.md",
+    "references/casebook-field-guide.md",
+    "references/privacy-and-redaction-rules.md",
+    "references/reuse-taxonomy.md",
+    "templates/casebook-entry-template.md",
+    "templates/casebook-index-template.md",
+    "templates/redacted-source-ledger-template.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

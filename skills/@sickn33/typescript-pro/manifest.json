@@ -1,0 +1,15 @@
+{
+  "name": "typescript-pro",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.",
+  "category": "languages",
+  "tags": [
+    "languages"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

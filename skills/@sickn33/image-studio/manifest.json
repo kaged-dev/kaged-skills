@@ -1,0 +1,15 @@
+{
+  "name": "image-studio",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
+  "category": "design",
+  "tags": [
+    "design"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

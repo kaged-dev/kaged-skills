@@ -1,0 +1,17 @@
+{
+  "name": "unreal-engine-cpp-pro",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.",
+  "category": "languages",
+  "tags": [
+    "languages"
+  ],
+  "files": [
+    "SKILL.md",
+    "examples/ExampleActor.cpp",
+    "examples/ExampleActor.h"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

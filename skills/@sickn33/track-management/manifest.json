@@ -1,0 +1,16 @@
+{
+  "name": "track-management",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.",
+  "category": "project-management",
+  "tags": [
+    "project-management"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

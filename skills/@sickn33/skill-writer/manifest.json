@@ -1,0 +1,27 @@
+{
+  "name": "skill-writer",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.",
+  "category": "meta",
+  "tags": [
+    "meta"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/authoring-path.md",
+    "references/description-optimization.md",
+    "references/design-principles.md",
+    "references/evaluation-path.md",
+    "references/examples/workflow-process.md",
+    "references/iteration-path.md",
+    "references/mode-selection.md",
+    "references/output-patterns.md",
+    "references/registration-validation.md",
+    "references/skill-patterns.md",
+    "references/synthesis-path.md",
+    "references/workflow-patterns.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

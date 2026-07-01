@@ -1,0 +1,16 @@
+{
+  "name": "security-requirement-extraction",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases.",
+  "category": "security",
+  "tags": [
+    "security"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

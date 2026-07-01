@@ -1,0 +1,26 @@
+{
+  "name": "crossframe-suite",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.",
+  "category": "workflow",
+  "tags": [
+    "workflow"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-suite-smoke-tests.md",
+    "examples/bad-overtrigger-case.md",
+    "examples/essay-workflow-case.md",
+    "examples/public-comment-workflow-case.md",
+    "examples/reader-reply-workflow-case.md",
+    "protocols/suite-dispatch-protocol.md",
+    "references/output-mode-selector.md",
+    "references/workflow-routing-map.md",
+    "templates/mode-selection-dialog.md",
+    "templates/suite-reasoning-outline.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "energy-procurement",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.",
+  "category": "business",
+  "tags": [
+    "business"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/communication-templates.md",
+    "references/decision-frameworks.md",
+    "references/edge-cases.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

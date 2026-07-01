@@ -1,0 +1,21 @@
+{
+  "name": "survey-generator",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.",
+  "category": "education",
+  "tags": [
+    "education"
+  ],
+  "files": [
+    "LICENSE",
+    "SKILL.md",
+    "build_artifact.py",
+    "examples/agentic-engineering/research_bundle.json",
+    "examples/agentic-engineering/survey.html",
+    "style_spec.json",
+    "templates/research_bundle_template.json"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

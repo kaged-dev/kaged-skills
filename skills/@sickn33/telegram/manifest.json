@@ -1,0 +1,34 @@
+{
+  "name": "telegram",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Integracao completa com Telegram Bot API. Setup com BotFather, mensagens, webhooks, inline keyboards, grupos, canais. Boilerplates Node.js e Python.",
+  "category": "backend",
+  "tags": [
+    "backend"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/boilerplate/nodejs/.env.example",
+    "assets/boilerplate/nodejs/package.json",
+    "assets/boilerplate/nodejs/src/bot-client.ts",
+    "assets/boilerplate/nodejs/src/handlers.ts",
+    "assets/boilerplate/nodejs/src/index.ts",
+    "assets/boilerplate/nodejs/tsconfig.json",
+    "assets/boilerplate/python/.env.example",
+    "assets/boilerplate/python/bot.py",
+    "assets/boilerplate/python/requirements.txt",
+    "assets/boilerplate/python/webhook_server.py",
+    "assets/examples/inline-keyboard.json",
+    "assets/examples/webhook-payloads.json",
+    "references/advanced-features.md",
+    "references/api-reference.md",
+    "references/chat-management.md",
+    "references/webhook-setup.md",
+    "scripts/send_message.py",
+    "scripts/setup_project.py",
+    "scripts/test_bot.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

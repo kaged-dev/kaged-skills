@@ -1,0 +1,43 @@
+{
+  "name": "instagram",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator.",
+  "category": "marketing",
+  "tags": [
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/account_types.md",
+    "references/graph_api.md",
+    "references/permissions.md",
+    "references/publishing_guide.md",
+    "references/rate_limits.md",
+    "references/schema.md",
+    "references/setup_walkthrough.md",
+    "scripts/account_setup.py",
+    "scripts/analyze.py",
+    "scripts/api_client.py",
+    "scripts/auth.py",
+    "scripts/comments.py",
+    "scripts/config.py",
+    "scripts/db.py",
+    "scripts/export.py",
+    "scripts/governance.py",
+    "scripts/hashtags.py",
+    "scripts/insights.py",
+    "scripts/media.py",
+    "scripts/messages.py",
+    "scripts/profile.py",
+    "scripts/publish.py",
+    "scripts/requirements.txt",
+    "scripts/run_all.py",
+    "scripts/schedule.py",
+    "scripts/serve_api.py",
+    "scripts/templates.py",
+    "static/dashboard.html"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

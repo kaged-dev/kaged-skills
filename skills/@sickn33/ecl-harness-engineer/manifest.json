@@ -1,0 +1,42 @@
+{
+  "name": "ecl-harness-engineer",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "LICENSE",
+    "SKILL.md",
+    "agents/analyzer.md",
+    "agents/auditor.md",
+    "agents/creator-config.md",
+    "agents/creator-docs.md",
+    "agents/creator-linters.md",
+    "references/adapters/adapter-schema.md",
+    "references/adapters/generic.md",
+    "references/adapters/go.md",
+    "references/adapters/java.md",
+    "references/adapters/python.md",
+    "references/adapters/rust.md",
+    "references/adapters/typescript.md",
+    "references/architecture-diagrams.md",
+    "references/audit-templates.md",
+    "references/capability-registry.md",
+    "references/darwin-eval-prompts.md",
+    "references/documentation-templates.md",
+    "references/durability-patterns.md",
+    "references/ecl-harness.md",
+    "references/environment-config-guide.md",
+    "references/environment-detection-guide.md",
+    "references/eval-templates.md",
+    "references/gc-templates.md",
+    "references/greenfield-templates.md",
+    "references/linter-templates.md",
+    "references/observability-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

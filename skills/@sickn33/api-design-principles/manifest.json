@@ -1,0 +1,20 @@
+{
+  "name": "api-design-principles",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.",
+  "category": "backend",
+  "tags": [
+    "backend"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/api-design-checklist.md",
+    "assets/rest-api-template.py",
+    "references/graphql-schema-design.md",
+    "references/rest-best-practices.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

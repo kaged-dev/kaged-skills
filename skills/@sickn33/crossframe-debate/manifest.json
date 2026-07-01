@@ -1,0 +1,25 @@
+{
+  "name": "crossframe-debate",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks.",
+  "category": "content",
+  "tags": [
+    "content"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-debate-smoke-tests.md",
+    "examples/failure-samples.md",
+    "examples/philosophical-proposition-case.md",
+    "examples/public-proposition-case.md",
+    "examples/relationship-proposition-case.md",
+    "protocols/debate-protocol.md",
+    "references/debate-failure-patterns.md",
+    "references/debate-quality-gates.md",
+    "templates/debate-analysis-output.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

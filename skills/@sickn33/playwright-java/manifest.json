@@ -1,0 +1,21 @@
+{
+  "name": "playwright-java",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.",
+  "category": "testing",
+  "tags": [
+    "testing"
+  ],
+  "files": [
+    "BasePage.java",
+    "BaseTest.java",
+    "SKILL.md",
+    "assertions.md",
+    "config.md",
+    "fixtures.md",
+    "page-objects.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

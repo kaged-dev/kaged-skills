@@ -1,0 +1,22 @@
+{
+  "name": "uncle-bob-craft",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter.",
+  "category": "code-quality",
+  "tags": [
+    "code-quality"
+  ],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "examples/code-review-checklist.md",
+    "reference.md",
+    "references/clean-agile.md",
+    "references/clean-architecture.md",
+    "references/clean-coder.md",
+    "references/design-patterns.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

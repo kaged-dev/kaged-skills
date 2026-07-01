@@ -1,0 +1,26 @@
+{
+  "name": "2slides-ppt-generator",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "AI-powered presentation generation via the 2slides API — create slides from text, match a reference image style, summarize documents into decks, add AI voice narration, and export pages/audio. Use for any 'make slides', 'create a deck', or 'slides from this document'...",
+  "category": "backend",
+  "tags": [
+    "backend"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/api-reference.md",
+    "references/mcp-integration.md",
+    "references/pricing.md",
+    "requirements.txt",
+    "scripts/api_constants.py",
+    "scripts/create_pdf_slides.py",
+    "scripts/download_slides_pages_voices.py",
+    "scripts/generate_narration.py",
+    "scripts/generate_slides.py",
+    "scripts/get_job_status.py",
+    "scripts/search_themes.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

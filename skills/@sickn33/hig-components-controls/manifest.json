@@ -1,0 +1,29 @@
+{
+  "name": "hig-components-controls",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/combo-boxes.md",
+    "references/controls.md",
+    "references/gauges.md",
+    "references/labels.md",
+    "references/pickers.md",
+    "references/rating-indicators.md",
+    "references/segmented-controls.md",
+    "references/sliders.md",
+    "references/steppers.md",
+    "references/text-fields.md",
+    "references/text-views.md",
+    "references/toggles.md",
+    "references/token-fields.md",
+    "references/virtual-keyboards.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

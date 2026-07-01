@@ -1,0 +1,15 @@
+{
+  "name": "scala-pro",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.",
+  "category": "languages",
+  "tags": [
+    "languages"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

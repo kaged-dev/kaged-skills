@@ -1,0 +1,20 @@
+{
+  "name": "dotnet-backend-patterns",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).",
+  "category": "backend",
+  "tags": [
+    "backend"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/repository-template.cs.template",
+    "assets/service-template.cs.template",
+    "references/dapper-patterns.md",
+    "references/ef-core-best-practices.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

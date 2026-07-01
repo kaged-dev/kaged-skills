@@ -1,0 +1,18 @@
+{
+  "name": "carrier-relationship-management",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.",
+  "category": "business",
+  "tags": [
+    "business"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/communication-templates.md",
+    "references/decision-frameworks.md",
+    "references/edge-cases.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

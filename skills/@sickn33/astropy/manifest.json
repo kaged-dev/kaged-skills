@@ -1,0 +1,22 @@
+{
+  "name": "astropy",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and data analysis.",
+  "category": "science",
+  "tags": [
+    "science"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/coordinates.md",
+    "references/cosmology.md",
+    "references/fits.md",
+    "references/tables.md",
+    "references/time.md",
+    "references/units.md",
+    "references/wcs_and_other_modules.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

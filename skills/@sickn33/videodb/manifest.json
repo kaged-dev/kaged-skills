@@ -1,0 +1,26 @@
+{
+  "name": "videodb",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.",
+  "category": "media",
+  "tags": [
+    "media"
+  ],
+  "files": [
+    "SKILL.md",
+    "reference/api-reference.md",
+    "reference/capture-reference.md",
+    "reference/capture.md",
+    "reference/editor.md",
+    "reference/generative.md",
+    "reference/rtstream-reference.md",
+    "reference/rtstream.md",
+    "reference/search.md",
+    "reference/streaming.md",
+    "reference/use-cases.md",
+    "scripts/ws_listener.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

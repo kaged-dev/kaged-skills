@@ -1,0 +1,16 @@
+{
+  "name": "geo-fundamentals",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
+  "category": "marketing",
+  "tags": [
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "scripts/geo_checker.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

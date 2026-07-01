@@ -1,0 +1,16 @@
+{
+  "name": "team-collaboration-standup-notes",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns.",
+  "category": "project-management",
+  "tags": [
+    "project-management"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

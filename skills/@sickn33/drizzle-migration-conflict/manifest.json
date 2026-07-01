@@ -1,0 +1,20 @@
+{
+  "name": "drizzle-migration-conflict",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Diagnose, repair, and prevent Drizzle Kit migration conflicts involving generated SQL, snapshots, journals, merge queues, and team workflows.",
+  "category": "database",
+  "tags": [
+    "database"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/ci-policy.md",
+    "references/conflict-resolution.md",
+    "references/report-template.md",
+    "references/sources.md",
+    "scripts/check_drizzle_migrations.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

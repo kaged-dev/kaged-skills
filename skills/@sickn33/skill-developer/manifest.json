@@ -1,0 +1,21 @@
+{
+  "name": "skill-developer",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern.",
+  "category": "meta",
+  "tags": [
+    "meta"
+  ],
+  "files": [
+    "ADVANCED.md",
+    "HOOK_MECHANISMS.md",
+    "PATTERNS_LIBRARY.md",
+    "SKILL.md",
+    "SKILL_RULES_REFERENCE.md",
+    "TRIGGER_TYPES.md",
+    "TROUBLESHOOTING.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "comprehensive-review-pr-enhance",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says 'write a PR description', 'improve this PR', 'summarize my changes', 'PR review', 'pull request', or asks to document a diff f...",
+  "category": "code-quality",
+  "tags": [
+    "code-quality"
+  ],
+  "files": [
+    "SKILL.md",
+    "resources/implementation-playbook.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

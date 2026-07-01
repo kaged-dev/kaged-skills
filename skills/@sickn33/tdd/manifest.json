@@ -1,0 +1,18 @@
+{
+  "name": "tdd",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions 'red-green-refactor', or wants integration tests.",
+  "category": "general-dev",
+  "tags": [
+    "general-dev"
+  ],
+  "files": [
+    "SKILL.md",
+    "mocking.md",
+    "refactoring.md",
+    "tests.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

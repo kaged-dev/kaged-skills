@@ -1,0 +1,41 @@
+{
+  "name": "weaviate",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Search, query, inspect, create, and import data into Weaviate vector database collections using official scripts and references.",
+  "category": "database",
+  "tags": [
+    "database"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/ask.md",
+    "references/create_collection.md",
+    "references/environment_requirements.md",
+    "references/example_data.md",
+    "references/explore_collection.md",
+    "references/fetch_filter.md",
+    "references/get_collection.md",
+    "references/hybrid_search.md",
+    "references/import_data.md",
+    "references/keyword_search.md",
+    "references/list_collections.md",
+    "references/query_search.md",
+    "references/semantic_search.md",
+    "scripts/ask.py",
+    "scripts/create_collection.py",
+    "scripts/example_data.py",
+    "scripts/explore_collection.py",
+    "scripts/fetch_filter.py",
+    "scripts/get_collection.py",
+    "scripts/hybrid_search.py",
+    "scripts/import.py",
+    "scripts/keyword_search.py",
+    "scripts/list_collections.py",
+    "scripts/query_search.py",
+    "scripts/semantic_search.py",
+    "scripts/weaviate_conn.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

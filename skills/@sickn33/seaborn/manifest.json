@@ -1,0 +1,15 @@
+{
+  "name": "seaborn",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.",
+  "category": "science",
+  "tags": [
+    "science"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "api-patterns",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
+  "category": "backend",
+  "tags": [
+    "backend"
+  ],
+  "files": [
+    "SKILL.md",
+    "api-style.md",
+    "auth.md",
+    "documentation.md",
+    "graphql.md",
+    "rate-limiting.md",
+    "response.md",
+    "rest.md",
+    "scripts/api_validator.py",
+    "security-testing.md",
+    "trpc.md",
+    "versioning.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

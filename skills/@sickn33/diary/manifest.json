@@ -1,0 +1,26 @@
+{
+  "name": "diary",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Unified Diary System: A context-preserving automated logger for multi-project development.",
+  "category": "meta",
+  "tags": [
+    "meta"
+  ],
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "SKILL.md",
+    "requirements.txt",
+    "scripts/fetch_diaries.py",
+    "scripts/master_diary_sync.py",
+    "scripts/prepare_context.py",
+    "scripts/sync_to_notion.py",
+    "templates/global-diary-template.md",
+    "templates/local-diary-template.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

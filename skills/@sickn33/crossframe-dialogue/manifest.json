@@ -1,0 +1,28 @@
+{
+  "name": "crossframe-dialogue",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when CrossFrame Suite routes explicit Chinese reader replies, editor responses, consultation-style short answers, or boundary-aware structural advice.",
+  "category": "content",
+  "tags": [
+    "content"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-dialogue-smoke-tests.md",
+    "examples/boundary-high-responsibility.md",
+    "examples/failure-modes.md",
+    "examples/normal-reader-question.md",
+    "protocols/consultation-boundary-protocol.md",
+    "protocols/dialogue-protocol.md",
+    "references/dialogue-quality-gates.md",
+    "references/failure-patterns.md",
+    "references/voice-bridge.md",
+    "templates/consultation-response-template.md",
+    "templates/default-short-answer.md",
+    "templates/reader-reply-template.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

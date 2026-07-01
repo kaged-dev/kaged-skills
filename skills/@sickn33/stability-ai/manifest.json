@@ -1,0 +1,22 @@
+{
+  "name": "stability-ai",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.",
+  "category": "media",
+  "tags": [
+    "media"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/api-reference.md",
+    "references/prompt-engineering.md",
+    "references/setup-guide.md",
+    "scripts/config.py",
+    "scripts/generate.py",
+    "scripts/requirements.txt",
+    "scripts/styles.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

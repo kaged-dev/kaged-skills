@@ -1,0 +1,21 @@
+{
+  "name": "audio-transcriber",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration",
+  "category": "ai-ml",
+  "tags": [
+    "ai-ml"
+  ],
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "SKILL.md",
+    "examples/basic-transcription.sh",
+    "references/tools-comparison.md",
+    "scripts/install-requirements.sh",
+    "scripts/transcribe.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

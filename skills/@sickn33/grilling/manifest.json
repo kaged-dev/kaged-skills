@@ -1,0 +1,15 @@
+{
+  "name": "grilling",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.",
+  "category": "productivity",
+  "tags": [
+    "productivity"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

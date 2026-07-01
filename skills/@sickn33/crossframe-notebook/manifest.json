@@ -1,0 +1,29 @@
+{
+  "name": "crossframe-notebook",
+  "namespace": "@sickn33",
+  "version": "1.0.0",
+  "description": "Use when CrossFrame Suite routes explicit Chinese notes for books, theories, articles, excerpts, bidirectional reading, absorption, or conflict mapping.",
+  "category": "content",
+  "tags": [
+    "content"
+  ],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "evals/crossframe-notebook-smoke-tests.md",
+    "examples/article-excerpt-note.md",
+    "examples/book-theory-note.md",
+    "examples/failure-samples.md",
+    "examples/public-theory-note.md",
+    "protocols/bidirectional-reading-protocol.md",
+    "protocols/notebook-reading-protocol.md",
+    "protocols/source-integrity-protocol.md",
+    "references/absorption-taxonomy.md",
+    "references/notebook-quality-gates.md",
+    "references/source-boundary-rules.md",
+    "templates/research-notebook.md",
+    "templates/source-ledger.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}
