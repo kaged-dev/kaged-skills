@@ -1,0 +1,27 @@
+{
+  "name": "mcp-builder",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Guide for creating high-quality MCP (Model Context Protocol) servers. Use when building MCP servers to integrate external APIs or services, in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+  "category": "code-quality",
+  "tags": [
+    "mcp",
+    "protocol",
+    "integration",
+    "tools"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "reference/evaluation.md",
+    "reference/mcp_best_practices.md",
+    "reference/node_mcp_server.md",
+    "reference/python_mcp_server.md",
+    "scripts/connections.py",
+    "scripts/evaluation.py",
+    "scripts/example_evaluation.xml",
+    "scripts/requirements.txt"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

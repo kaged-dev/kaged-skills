@@ -1,0 +1,19 @@
+{
+  "name": "backlink-analyzer",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \"analyze backlinks\" or \"外链分析\"; profiles external referring domains, anchor-text distribution, toxic links, and competitor link gaps. Not for internal links — use internal-linking-optimizer. 外链分析/反向链接",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/analysis-templates.md",
+    "references/link-quality-rubric.md",
+    "references/outreach-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

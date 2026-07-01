@@ -1,0 +1,24 @@
+{
+  "name": "slack-gif-creator",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Create animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request GIFs for Slack like 'make a GIF of X doing Y for Slack.'",
+  "category": "creative",
+  "tags": [
+    "gif",
+    "slack",
+    "animation",
+    "media"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "core/easing.py",
+    "core/frame_composer.py",
+    "core/gif_builder.py",
+    "core/validators.py",
+    "requirements.txt"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

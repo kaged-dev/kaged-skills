@@ -1,0 +1,20 @@
+{
+  "name": "schema-markup-generator",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \\\"generate schema\\\"; creates JSON-LD for FAQ, HowTo, Article, Product, and LocalBusiness rich-result candidates. Not for title/meta-description tags — use meta-tags-optimizer; not for crawl/index technical issues — use technical-seo-checker....",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/instructions-detail.md",
+    "references/schema-decision-tree.md",
+    "references/schema-templates.md",
+    "references/validation-guide.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

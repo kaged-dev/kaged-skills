@@ -1,0 +1,23 @@
+{
+  "name": "web-artifacts-builder",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Build elaborate multi-component claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui. Use for complex artifacts requiring state management, routing, or component libraries.",
+  "category": "frontend",
+  "tags": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "artifacts",
+    "spa"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "scripts/bundle-artifact.sh",
+    "scripts/init-artifact.sh",
+    "scripts/shadcn-components.tar.gz"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

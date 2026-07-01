@@ -1,0 +1,19 @@
+{
+  "name": "frontend-design",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Guidance for distinctive, intentional visual design when building or reshaping UI. Helps with aesthetic direction, typography, and making deliberate choices that avoid templated defaults.",
+  "category": "design",
+  "tags": [
+    "ui",
+    "design",
+    "frontend",
+    "aesthetics"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

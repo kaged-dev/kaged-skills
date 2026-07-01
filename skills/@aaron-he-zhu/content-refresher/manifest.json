@@ -1,0 +1,19 @@
+{
+  "name": "content-refresher",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \"update outdated content\" or \"fix traffic/ranking decay\"; scores decay, prioritizes refresh work, and produces an update plan with GEO and republishing guidance. Not for net-new content — use seo-content-writer. 内容更新/排名恢复",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/content-decay-signals.md",
+    "references/refresh-example.md",
+    "references/refresh-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

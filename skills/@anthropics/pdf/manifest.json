@@ -1,0 +1,29 @@
+{
+  "name": "pdf",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Read, extract, merge, split, rotate, watermark, create, fill forms, encrypt/decrypt, and OCR PDF files. Use whenever a .pdf file is the primary input or output.",
+  "category": "productivity",
+  "tags": [
+    "pdf",
+    "forms",
+    "ocr",
+    "documents"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "forms.md",
+    "reference.md",
+    "scripts/check_bounding_boxes.py",
+    "scripts/check_fillable_fields.py",
+    "scripts/convert_pdf_to_images.py",
+    "scripts/create_validation_image.py",
+    "scripts/extract_form_field_info.py",
+    "scripts/extract_form_structure.py",
+    "scripts/fill_fillable_fields.py",
+    "scripts/fill_pdf_form_with_annotations.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Anthropic"
+}

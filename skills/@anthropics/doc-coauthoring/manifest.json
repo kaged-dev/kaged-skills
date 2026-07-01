@@ -1,0 +1,18 @@
+{
+  "name": "doc-coauthoring",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Structured workflow for co-authoring documentation, proposals, technical specs, and decision docs. Guides through context gathering, refinement, and reader testing stages.",
+  "category": "documentation",
+  "tags": [
+    "writing",
+    "docs",
+    "collaboration",
+    "workflow"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

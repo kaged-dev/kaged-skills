@@ -1,0 +1,19 @@
+{
+  "name": "performance-reporter",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \"generate an SEO report\" or \"出月报\"; builds multi-metric stakeholder reports and dashboards spanning traffic, rankings, authority, and content progress. Not for raw ranking deltas — use rank-tracker. SEO报告/绩效仪表盘",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/kpi-definitions.md",
+    "references/report-output-templates.md",
+    "references/report-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

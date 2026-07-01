@@ -33,7 +33,7 @@ export const SkillManifestSchema = z.object({
   files: z
     .array(z.string().min(1))
     .min(1, "at least one file must be listed")
-    .max(50),
+    .max(200),
 
   kaged_version: z
     .string()

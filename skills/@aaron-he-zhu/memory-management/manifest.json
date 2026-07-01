@@ -1,0 +1,22 @@
+{
+  "name": "memory-management",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \"remember project context\"; manages the SEO/GEO memory lifecycle — hot-cache, active work, archive tiers, and privacy cleanup. Not for content or domain scoring — use the auditors. 项目记忆/跨会话",
+  "category": "workflow",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/examples.md",
+    "references/gdpr-purge-log-template.md",
+    "references/glossary-template.md",
+    "references/hot-cache-template.md",
+    "references/promotion-demotion-rules.md",
+    "references/update-triggers-integration.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

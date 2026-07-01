@@ -1,0 +1,20 @@
+{
+  "name": "seo-content-writer",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \\\"write SEO content\\\"; drafts new posts, articles, and landing pages with keywords, headers, snippets, and evidence boundaries. Not for AI-citation/GEO readiness scoring — use geo-content-optimizer; not for updating decaying existing content...",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/content-structure-templates.md",
+    "references/instructions-detail.md",
+    "references/seo-writing-checklist.md",
+    "references/title-formulas.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

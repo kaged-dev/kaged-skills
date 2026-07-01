@@ -1,0 +1,20 @@
+{
+  "name": "meta-tags-optimizer",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \"optimize meta tags\"; improves titles, descriptions, Open Graph, Twitter cards, and CTR test variants. Not for JSON-LD structured data — use schema-markup-generator; not for body copy — use seo-content-writer. 标题优化/元描述/CTR",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/ctr-and-social-reference.md",
+    "references/instructions-detail.md",
+    "references/meta-tag-code-templates.md",
+    "references/meta-tag-formulas.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

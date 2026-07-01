@@ -1,0 +1,24 @@
+{
+  "name": "technical-seo-checker",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \"check technical SEO\"; audits crawlability, indexing, Core Web Vitals, robots.txt, sitemaps, canonicals, redirects, and migrations. Not for on-page tags or content — use on-page-seo-auditor. 技术SEO/网站速度",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/bulk-audit-playbook.md",
+    "references/ecommerce-platform-patterns.md",
+    "references/http-status-codes.md",
+    "references/llm-crawler-handling.md",
+    "references/pre-migration-playbook.md",
+    "references/robots-txt-reference.md",
+    "references/technical-audit-example.md",
+    "references/technical-audit-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

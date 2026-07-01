@@ -1,0 +1,30 @@
+{
+  "name": "theme-factory",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Toolkit for styling artifacts with curated themes — slides, docs, reports, HTML pages. Includes 10 pre-set themes with colors/fonts, or generates new themes on-the-fly.",
+  "category": "design",
+  "tags": [
+    "themes",
+    "styling",
+    "colors",
+    "fonts"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "theme-showcase.pdf",
+    "themes/arctic-frost.md",
+    "themes/botanical-garden.md",
+    "themes/desert-rose.md",
+    "themes/forest-canopy.md",
+    "themes/golden-hour.md",
+    "themes/midnight-galaxy.md",
+    "themes/modern-minimalist.md",
+    "themes/ocean-depths.md",
+    "themes/sunset-boulevard.md",
+    "themes/tech-innovation.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

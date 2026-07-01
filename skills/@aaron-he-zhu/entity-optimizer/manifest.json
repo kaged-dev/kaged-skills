@@ -1,0 +1,21 @@
+{
+  "name": "entity-optimizer",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when the user asks to \"optimize entity presence\"; builds Knowledge Graph, Wikidata, sameAs, and AI recognition signals for a canonical entity identity. Not for page-level AI-citation readiness — use geo-content-optimizer. 实体优化/知识图谱",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/entity-signal-checklist.md",
+    "references/entity-type-reference.md",
+    "references/example-audit-report.md",
+    "references/knowledge-graph-guide.md",
+    "references/knowledge-panel-wikidata-guide.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

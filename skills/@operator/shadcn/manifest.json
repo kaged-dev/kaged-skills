@@ -1,0 +1,31 @@
+{
+  "name": "shadcn",
+  "namespace": "@operator",
+  "version": "1.0.0",
+  "description": "Manage shadcn/ui components and projects — adding, searching, fixing, styling, and composing UI including chat interfaces. Provides project context, component docs, and usage examples.",
+  "category": "frontend",
+  "tags": [
+    "shadcn",
+    "react",
+    "ui-components",
+    "tailwind"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/shadcn-small.png",
+    "assets/shadcn.png",
+    "cli.md",
+    "customization.md",
+    "evals/evals.json",
+    "mcp.md",
+    "registry.md",
+    "rules/base-vs-radix.md",
+    "rules/chat.md",
+    "rules/composition.md",
+    "rules/forms.md",
+    "rules/icons.md",
+    "rules/styling.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "content-quality-auditor",
+  "namespace": "@aaron-he-zhu",
+  "version": "1.0.0",
+  "description": "Use when auditing content quality, E-E-A-T, or publish readiness; runs 80-item CORE-EEAT scoring with veto checks and a fix plan. Not for structural on-page tags/headers — use on-page-seo-auditor; not for domain/citation trust — use domain-authority-auditor. 内容质量/EEAT评分",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/item-reference.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

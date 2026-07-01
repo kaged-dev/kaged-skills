@@ -1,0 +1,23 @@
+{
+  "name": "internal-comms",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Resources for writing internal communications — status reports, 3P updates, company newsletters, FAQs, incident reports. Provides company-preferred formats and examples.",
+  "category": "documentation",
+  "tags": [
+    "writing",
+    "comms",
+    "business",
+    "templates"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "examples/3p-updates.md",
+    "examples/company-newsletter.md",
+    "examples/faq-answers.md",
+    "examples/general-comms.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

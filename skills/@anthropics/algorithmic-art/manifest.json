@@ -1,0 +1,21 @@
+{
+  "name": "algorithmic-art",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Create algorithmic art using p5.js with seeded randomness. Generates philosophy docs, interactive HTML viewers, and generative .js scripts. Use when creating generative art, flow fields, or particle systems.",
+  "category": "creative",
+  "tags": [
+    "p5js",
+    "generative-art",
+    "visualization",
+    "interactive"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "templates/generator_template.js",
+    "templates/viewer.html"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}

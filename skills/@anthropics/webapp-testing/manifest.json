@@ -1,0 +1,23 @@
+{
+  "name": "webapp-testing",
+  "namespace": "@anthropics",
+  "version": "1.0.0",
+  "description": "Interact with and test local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+  "category": "testing",
+  "tags": [
+    "playwright",
+    "e2e",
+    "browser",
+    "ui-testing"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "examples/console_logging.py",
+    "examples/element_discovery.py",
+    "examples/static_html_automation.py",
+    "scripts/with_server.py"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "Apache-2.0"
+}
