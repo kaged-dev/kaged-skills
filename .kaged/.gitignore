@@ -1,0 +1,8 @@
+# kaged config directory — managed by the daemon
+# Do not commit local overrides or temporary files
+
+# Local DSL overlay (operator-specific, not shared)
+*.local.*
+
+# Temporary files (file uploads, interaction artifacts)
+tmp/

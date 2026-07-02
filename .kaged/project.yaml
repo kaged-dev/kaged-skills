@@ -1,0 +1,20 @@
+version: 1
+project: kaged-skills
+
+primary:
+  model: smart-generalist
+  system_prompt: project:/AGENTS.md
+  cage: disabled
+  tools:
+    "*":
+      enabled: true
+  subagents:
+    skills_cleanup:
+      model: smart-generalist
+      system_prompt: config:/prompts/process-skills.md
+      cage: disabled
+      tools:
+        "*":
+          enabled: true
+      description: Used to cleanup imported skills, operator will request when required.
+      max_steps: 100
