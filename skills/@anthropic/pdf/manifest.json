@@ -1,6 +1,6 @@
 {
   "name": "pdf",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Read, extract, merge, split, rotate, watermark, create, fill forms, encrypt/decrypt, and OCR PDF files. Use whenever a .pdf file is the primary input or output.",
   "category": "productivity",

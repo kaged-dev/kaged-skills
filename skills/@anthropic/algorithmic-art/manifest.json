@@ -1,6 +1,6 @@
 {
   "name": "algorithmic-art",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Create algorithmic art using p5.js with seeded randomness. Generates philosophy docs, interactive HTML viewers, and generative .js scripts. Use when creating generative art, flow fields, or particle systems.",
   "category": "creative",

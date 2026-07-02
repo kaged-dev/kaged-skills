@@ -1,6 +1,6 @@
 {
   "name": "internal-comms",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Resources for writing internal communications — status reports, 3P updates, company newsletters, FAQs, incident reports. Provides company-preferred formats and examples.",
   "category": "documentation",

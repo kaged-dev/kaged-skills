@@ -1,6 +1,6 @@
 {
   "name": "claude-api",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Reference for the Claude API and Anthropic SDK — model IDs, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. Read before working with Claude/Anthropic in any form.",
   "category": "documentation",

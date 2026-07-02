@@ -1,6 +1,6 @@
 {
   "name": "xlsx",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Open, read, edit, fix, create, and convert spreadsheet files (.xlsx, .xlsm, .csv, .tsv). Handles formulas, formatting, charting, data cleaning, and tabular file conversion. Use when the deliverable is a spreadsheet.",
   "category": "productivity",

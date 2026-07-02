@@ -1,6 +1,6 @@
 {
   "name": "canvas-design",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. Use for posters, artwork, or static visual design. Generates original designs, never copying existing artists.",
   "category": "creative",

@@ -1,6 +1,6 @@
 {
   "name": "doc-coauthoring",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Structured workflow for co-authoring documentation, proposals, technical specs, and decision docs. Guides through context gathering, refinement, and reader testing stages.",
   "category": "documentation",

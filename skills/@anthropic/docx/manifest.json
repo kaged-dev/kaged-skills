@@ -1,6 +1,6 @@
 {
   "name": "docx",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Create, read, edit, and manipulate Word documents (.docx). Handles formatting, tables of contents, tracked changes, comments, images, and conversion. Use when the deliverable is a .docx file.",
   "category": "productivity",

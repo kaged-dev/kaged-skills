@@ -1,6 +1,6 @@
 {
   "name": "pptx",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Create, read, edit, and manipulate PowerPoint presentations (.pptx). Handles slide decks, pitch decks, templates, layouts, speaker notes, and comments. Use whenever a .pptx file is involved.",
   "category": "productivity",

@@ -1,6 +1,6 @@
 {
   "name": "skill-creator",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Create new skills, modify existing ones, and measure skill performance. Supports creating from scratch, editing, running evals, benchmarking with variance analysis, and optimizing description triggers.",
   "category": "workflow",

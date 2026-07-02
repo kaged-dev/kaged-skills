@@ -1,6 +1,6 @@
 {
   "name": "frontend-design",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Guidance for distinctive, intentional visual design when building or reshaping UI. Helps with aesthetic direction, typography, and making deliberate choices that avoid templated defaults.",
   "category": "design",

@@ -1,6 +1,6 @@
 {
   "name": "theme-factory",
-  "namespace": "@anthropics",
+  "namespace": "@anthropic",
   "version": "1.0.0",
   "description": "Toolkit for styling artifacts with curated themes — slides, docs, reports, HTML pages. Includes 10 pre-set themes with colors/fonts, or generates new themes on-the-fly.",
   "category": "design",
