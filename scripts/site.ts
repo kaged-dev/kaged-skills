@@ -183,24 +183,35 @@ function sharedStyles(): string {
       gap: 1rem;
     }
     .skill-card {
+      position: relative;
       background: var(--bg-elevated);
       border: 1px solid var(--border-default);
       border-radius: 0.5rem;
       padding: 1.25rem;
-      display: block;
       color: var(--text);
       transition: border-color 0.15s ease, background 0.15s ease;
     }
     .skill-card:hover {
       border-color: var(--border-glow);
       background: var(--bg-overlay);
-      text-decoration: none;
+    }
+    .skill-card .card-link {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
     }
     .skill-card .ns {
       font-family: var(--font-mono);
       font-size: 0.75rem;
-      color: var(--cyan);
       margin-bottom: 0.25rem;
+    }
+    .skill-card .ns a {
+      position: relative;
+      z-index: 2;
+      color: var(--cyan);
+    }
+    .skill-card .ns a:hover {
+      color: var(--cyan);
     }
     .skill-card .name {
       font-family: var(--font-display);
@@ -227,6 +238,16 @@ function sharedStyles(): string {
       border: 1px solid var(--border-default);
       color: var(--text-muted);
     }
+    a.tag {
+      position: relative;
+      z-index: 2;
+      text-decoration: none;
+    }
+    a.tag:hover {
+      color: var(--amber-bright);
+      border-color: var(--amber-dim);
+      background: var(--amber-faint);
+    }
     .tag.category {
       color: var(--magenta);
       border-color: var(--magenta);
@@ -235,9 +256,7 @@ function sharedStyles(): string {
     .detail-header {
       margin-bottom: 1.5rem;
     }
-    .detail-header .ns {
-      font-family: var(--font-mono);
-      font-size: 0.875rem;
+    .detail-header .ns a {
       color: var(--cyan);
     }
     .detail-header h1 {
@@ -250,11 +269,11 @@ function sharedStyles(): string {
       color: var(--text-muted);
       margin-top: 0.5rem;
     }
-    .install-cmd {
+    .skill-url {
       background: var(--bg-inset);
       border: 1px solid var(--border-default);
       border-radius: 0.5rem;
-      padding: 1rem;
+      padding: 0.75rem 1rem;
       margin-bottom: 1.5rem;
       font-family: var(--font-mono);
       font-size: 0.875rem;
@@ -262,19 +281,39 @@ function sharedStyles(): string {
       align-items: center;
       gap: 0.75rem;
     }
-    .install-cmd .prompt {
+    .skill-url .label {
       color: var(--amber);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
       flex-shrink: 0;
     }
-    .install-cmd code {
+    .skill-url code {
       color: var(--cyan);
       flex: 1;
       overflow-x: auto;
+      white-space: nowrap;
     }
-    .install-cmd .copy-hint {
-      font-size: 0.75rem;
+    .skill-url .copy-btn {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-default);
       color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      padding: 0.3rem 0.75rem;
+      border-radius: 0.25rem;
+      cursor: pointer;
       flex-shrink: 0;
+      transition: all 0.15s ease;
+    }
+    .skill-url .copy-btn:hover {
+      color: var(--amber);
+      border-color: var(--amber-dim);
+    }
+    .skill-url .copy-btn.copied {
+      color: var(--amber);
+      border-color: var(--amber-dim);
+      background: var(--amber-faint);
     }
     .meta-grid {
       display: grid;
@@ -324,13 +363,18 @@ function sharedStyles(): string {
     .file-list li {
       font-family: var(--font-mono);
       font-size: 0.8125rem;
-      color: var(--text-muted);
       padding: 0.2rem 0;
     }
     .file-list li::before {
       content: "›";
       color: var(--amber-dim);
       margin-right: 0.5rem;
+    }
+    .file-list li a {
+      color: var(--cyan);
+    }
+    .file-list li a:hover {
+      color: var(--amber-bright);
     }
     .readme-section {
       background: var(--bg-inset);
@@ -467,6 +511,11 @@ function pageFooter(buildTime: string): string {
 </html>`;
 }
 
+/** Namespace without @ — safe for URL path segments. */
+function nsSlug(ns: string): string {
+  return ns.slice(1);
+}
+
 export function renderIndex(
   skills: RegistryEntry[],
   buildTime: string,
@@ -562,26 +611,37 @@ export function renderIndex(
 function skillCard(skill: RegistryEntry): string {
   const tagsHtml = skill.tags
     .slice(0, 5)
-    .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+    .map((t) => `<a href="/tags/${encodeURIComponent(t)}/" class="tag">${escapeHtml(t)}</a>`)
     .join("");
 
-  return `<a href="/skills/${skill.slug}/" class="skill-card" data-category="${escapeHtml(skill.category)}" data-search="${escapeHtml((skill.namespace + " " + skill.name + " " + skill.description + " " + skill.tags.join(" ")).toLowerCase())}">
-      <div class="ns">${escapeHtml(skill.namespace)}</div>
+  return `<div class="skill-card" data-category="${escapeHtml(skill.category)}">
+      <a class="card-link" href="/skills/${skill.slug}/" aria-label="view ${escapeHtml(skill.name)}"></a>
+      <div class="ns"><a href="/skills/${nsSlug(skill.namespace)}/">${escapeHtml(skill.namespace)}</a></div>
       <div class="name">${escapeHtml(skill.name)}</div>
       <div class="desc">${escapeHtml(skill.description)}</div>
       <div class="tags">
         <span class="tag category">${escapeHtml(skill.category)}</span>
         ${tagsHtml}
       </div>
-    </a>`;
+    </div>`;
 }
 
 export function renderSkillPage(
   skill: RegistryEntry,
   buildTime: string,
 ): string {
-  const crumb = `<a href="/">kaged skills</a> / ${escapeHtml(skill.namespace)} / ${escapeHtml(skill.name)}`;
-  const sourceUrl = `https://github.com/kaged-dev/kaged-skills/tree/main/${skill.dir}`;
+  const skillUrl = `/skills/${skill.slug}/`;
+  const crumb = `<a href="/">kaged skills</a> / <a href="/skills/${nsSlug(skill.namespace)}/">${escapeHtml(skill.namespace)}</a> / ${escapeHtml(skill.name)}`;
+
+  const tagsHtml = skill.tags.length > 0
+    ? skill.tags.map((t) => `<a href="/tags/${encodeURIComponent(t)}/" class="tag">${escapeHtml(t)}</a>`).join("\n        ")
+    : "";
+
+  // manifest.json is always available alongside — show it in the file list
+  const allFiles = ["manifest.json", ...skill.files];
+  const filesHtml = allFiles
+    .map((f) => `<li><a href="${escapeHtml(f)}">${escapeHtml(f)}</a></li>`)
+    .join("\n          ");
 
   return `${pageHead(`${skill.namespace}/${skill.name} — kaged skills`)}
 <body>
@@ -589,15 +649,15 @@ export function renderSkillPage(
   <main>
     <div class="container">
       <div class="detail-header">
-        <div class="ns">${escapeHtml(skill.namespace)}</div>
+        <div class="ns"><a href="/skills/${nsSlug(skill.namespace)}/">${escapeHtml(skill.namespace)}</a></div>
         <h1>${escapeHtml(skill.name)}</h1>
         <div class="desc">${escapeHtml(skill.description)}</div>
       </div>
 
-      <div class="install-cmd">
-        <span class="prompt">$</span>
-        <code>kased skill import ${escapeHtml(skill.namespace)}/${escapeHtml(skill.name)}</code>
-        <span class="copy-hint">v${escapeHtml(skill.version)}</span>
+      <div class="skill-url">
+        <span class="label">link</span>
+        <code id="skill-url">${escapeHtml(skillUrl)}</code>
+        <button class="copy-btn" id="copy-btn" onclick="copySkillUrl()">copy</button>
       </div>
 
       <div class="meta-grid">
@@ -621,13 +681,13 @@ export function renderSkillPage(
 
       ${skill.tags.length > 0 ? `
       <div class="tags" style="margin-bottom: 1.5rem;">
-        ${skill.tags.map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join("\n        ")}
+        ${tagsHtml}
       </div>` : ""}
 
       <div class="file-list">
         <h3>Files</h3>
         <ul>
-          ${skill.files.map((f) => `<li>${escapeHtml(f)}</li>`).join("\n          ")}
+          ${filesHtml}
         </ul>
       </div>
 
@@ -636,10 +696,76 @@ export function renderSkillPage(
         <h3>SKILL.md</h3>
         <div class="readme-content">${escapeHtml(skill.readme)}</div>
       </div>` : ""}
+    </div>
+  </main>
+  ${pageFooter(buildTime)}
+  <script>
+    function copySkillUrl() {
+      const btn = document.getElementById("copy-btn");
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        btn.textContent = "copied!";
+        btn.classList.add("copied");
+        setTimeout(() => { btn.textContent = "copy"; btn.classList.remove("copied"); }, 2000);
+      });
+    }
+  </script>`;
+}
 
-      <div class="meta-item" style="margin-top: 1.5rem;">
-        <div class="label">source</div>
-        <div class="value"><a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(sourceUrl)}</a></div>
+export function renderNamespacePage(
+  ns: string,
+  nsSkills: RegistryEntry[],
+  buildTime: string,
+): string {
+  const slug = nsSlug(ns);
+  const crumb = `<a href="/">kaged skills</a> / ${escapeHtml(ns)}`;
+
+  return `${pageHead(`${ns} — kaged skills`)}
+<body>
+  ${pageHeader(ns, "[NAMESPACE]", crumb)}
+  <main>
+    <div class="container">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">${nsSkills.length}</div>
+          <div class="stat-label">${escapeHtml(ns)} Skills</div>
+        </div>
+      </div>
+
+      <h2 class="section-heading">Skills</h2>
+      <div class="skill-grid" id="grid">
+        ${nsSkills
+          .map((skill) => skillCard(skill))
+          .join("\n        ")}
+      </div>
+    </div>
+  </main>
+  ${pageFooter(buildTime)}`;
+}
+
+export function renderTagPage(
+  tag: string,
+  tagSkills: RegistryEntry[],
+  buildTime: string,
+): string {
+  const crumb = `<a href="/">kaged skills</a> / <a href="/tags/">tags</a> / ${escapeHtml(tag)}`;
+
+  return `${pageHead(`#${tag} — kaged skills`)}
+<body>
+  ${pageHeader(`#${tag}`, "[TAG]", crumb)}
+  <main>
+    <div class="container">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">${tagSkills.length}</div>
+          <div class="stat-label">Tagged #${escapeHtml(tag)}</div>
+        </div>
+      </div>
+
+      <h2 class="section-heading">Skills</h2>
+      <div class="skill-grid" id="grid">
+        ${tagSkills
+          .map((skill) => skillCard(skill))
+          .join("\n        ")}
       </div>
     </div>
   </main>
