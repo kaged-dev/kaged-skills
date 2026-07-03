@@ -1,0 +1,25 @@
+{
+  "name": "seo-image-gen",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "AI image generation for SEO assets: OG/social preview images, blog hero images, schema images, product photography, and infographics. Powered by Gemini via nanobanana-mcp.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "image-generation",
+    "gemini",
+    "og-image"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/cost-tracking.md",
+    "references/gemini-models.md",
+    "references/mcp-tools.md",
+    "references/post-processing.md",
+    "references/presets.md",
+    "references/prompt-engineering.md",
+    "references/seo-image-presets.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

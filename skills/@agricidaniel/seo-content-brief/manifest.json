@@ -1,0 +1,20 @@
+{
+  "name": "seo-content-brief",
+  "namespace": "@agricidaniel",
+  "version": "1.0.0",
+  "description": "Generate competitive SEO content briefs with per-section word counts, competitor scoring, keyword density guidance, and page-type templates for new and existing pages.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "content-strategy",
+    "content-brief"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/excluded-domains.md",
+    "references/keyword-density.md",
+    "references/page-type-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "seo-competitor-pages",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Generate SEO-optimized competitor comparison and alternatives pages. Covers X vs Y layouts, alternatives pages, feature matrices, schema markup, and conversion optimization.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "competitor-analysis",
+    "comparison-pages"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

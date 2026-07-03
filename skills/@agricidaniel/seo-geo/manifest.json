@@ -1,0 +1,21 @@
+{
+  "name": "seo-geo",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Generative Engine Optimization (GEO) for AI Overviews, ChatGPT, Perplexity. Analyzes brand mention signals, AI crawler accessibility, llms.txt compliance, and passage-level citability scoring.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "geo",
+    "ai-search",
+    "ai-overviews",
+    "llm"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/google-ai-optimization-guide.md",
+    "references/llmstxt-evidence.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

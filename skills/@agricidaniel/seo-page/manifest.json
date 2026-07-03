@@ -1,0 +1,17 @@
+{
+  "name": "seo-page",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Deep single-page SEO analysis covering on-page elements, content quality, technical meta tags, schema, images, and performance. Use when user says analyze this page, check page SEO, or provides a single URL.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "page-analysis",
+    "on-page-seo"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "seo-local",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Local SEO analysis covering Google Business Profile optimization, NAP consistency, citation health, review signals, local schema, location page quality, and multi-location SEO. Detects business type and industry vertical.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "local-seo",
+    "google-business-profile",
+    "citations"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

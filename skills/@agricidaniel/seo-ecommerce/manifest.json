@@ -1,0 +1,20 @@
+{
+  "name": "seo-ecommerce",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "E-commerce SEO analysis: Google Shopping visibility, Amazon marketplace intelligence, product schema validation, competitor pricing analysis, and marketplace keyword gaps.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "ecommerce",
+    "product-seo",
+    "google-shopping"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/marketplace-endpoints.md",
+    "references/ucp-universal-commerce-protocol.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

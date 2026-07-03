@@ -1,0 +1,22 @@
+{
+  "name": "seo-hreflang",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "hreflang",
+    "i18n",
+    "international-seo"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/content-parity.md",
+    "references/cultural-profiles.md",
+    "references/locale-formats.md",
+    "references/machine-translation-qa.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

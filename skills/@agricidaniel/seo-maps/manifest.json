@@ -1,0 +1,19 @@
+{
+  "name": "seo-maps",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Maps intelligence for local SEO: geo-grid rank tracking, GBP profile auditing, cross-platform review analysis, NAP verification, competitor radius mapping, and LocalBusiness schema generation.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "local-seo",
+    "maps",
+    "geo-grid",
+    "rank-tracking"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

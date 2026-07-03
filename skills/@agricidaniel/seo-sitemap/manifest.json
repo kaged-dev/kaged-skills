@@ -1,0 +1,17 @@
+{
+  "name": "seo-sitemap",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Analyze existing XML sitemaps or generate new ones with industry templates. Validates format, URLs, and structure. Use when user says sitemap, generate sitemap, sitemap issues, or XML sitemap.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "sitemap",
+    "xml"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

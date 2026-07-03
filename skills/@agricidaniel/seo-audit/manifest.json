@@ -1,0 +1,17 @@
+{
+  "name": "seo-audit",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Full website SEO audit with parallel subagent delegation. Crawls up to 500 pages, detects business type, delegates to up to 15 specialists, generates health score.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "audit",
+    "site-analysis"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "seo-drift",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "SEO drift monitoring: capture baselines of SEO-critical elements, detect changes, and track regressions over time. Git for SEO — baseline, diff, and track on-page changes.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "monitoring",
+    "change-tracking"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/comparison-rules.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "seo-sxo",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Search Experience Optimization: detects page-type mismatches from Google SERPs, derives user stories from search intent, and scores pages from multiple persona perspectives.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "sxo",
+    "search-experience",
+    "serp-analysis"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/page-type-taxonomy.md",
+    "references/persona-scoring.md",
+    "references/user-story-framework.md",
+    "references/wireframe-templates.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

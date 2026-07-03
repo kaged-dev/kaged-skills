@@ -1,0 +1,20 @@
+{
+  "name": "seo-dataforseo",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Live SEO data via DataForSEO MCP: SERP analysis, keyword research, backlink profiles, on-page analysis, competitor analysis, business listings, and AI visibility tracking. Requires DataForSEO extension.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "dataforseo",
+    "api-integration",
+    "serp"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/cost-tiers.md",
+    "references/tool-catalog.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

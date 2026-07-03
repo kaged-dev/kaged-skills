@@ -1,0 +1,17 @@
+{
+  "name": "seo-content",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Content quality and E-E-A-T analysis with AI citation readiness assessment. Use when user says content quality, E-E-A-T, content analysis, readability check, thin content, or content audit.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "content-quality",
+    "eeat"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

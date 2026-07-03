@@ -1,0 +1,22 @@
+{
+  "name": "seo-cluster",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "SERP-based semantic topic clustering for content architecture. Groups keywords by Google SERP overlap, designs hub-and-spoke content clusters with internal link matrices, and generates visualizations.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "content-strategy",
+    "clustering",
+    "topic-clusters"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/execution-workflow.md",
+    "references/hub-spoke-architecture.md",
+    "references/serp-overlap-methodology.md",
+    "templates/cluster-map.html"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

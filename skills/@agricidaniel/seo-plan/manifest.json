@@ -1,0 +1,24 @@
+{
+  "name": "seo-plan",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Strategic SEO planning for new or existing websites. Industry-specific templates, competitive analysis, content strategy, and phased implementation roadmap.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "strategy",
+    "planning",
+    "roadmap"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/agency.md",
+    "assets/ecommerce.md",
+    "assets/generic.md",
+    "assets/local-service.md",
+    "assets/publisher.md",
+    "assets/saas.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

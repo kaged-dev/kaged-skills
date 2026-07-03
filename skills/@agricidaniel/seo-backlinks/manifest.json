@@ -1,0 +1,17 @@
+{
+  "name": "seo-backlinks",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Backlink profile analysis: referring domains, anchor text distribution, toxic link detection, and competitor gap analysis. Works with free APIs (Moz, Bing, Common Crawl) and DataForSEO.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "backlinks",
+    "link-building"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "seo-technical",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Technical SEO audit across 9 categories: crawlability, indexability, security, URL structure, mobile, Core Web Vitals, structured data, JavaScript rendering, and IndexNow protocol.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "technical-seo",
+    "core-web-vitals",
+    "crawlability"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/agent-friendly-pages.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

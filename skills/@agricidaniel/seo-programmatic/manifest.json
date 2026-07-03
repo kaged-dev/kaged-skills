@@ -1,0 +1,17 @@
+{
+  "name": "seo-programmatic",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Programmatic SEO planning and analysis for pages generated at scale. Covers template engines, URL patterns, internal linking automation, thin content safeguards, and index bloat prevention.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "programmatic-seo",
+    "scaled-content"
+  ],
+  "files": [
+    "SKILL.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}

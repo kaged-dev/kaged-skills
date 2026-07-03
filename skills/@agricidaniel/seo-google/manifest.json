@@ -1,0 +1,32 @@
+{
+  "name": "seo-google",
+  "namespace": "@agricidaniel",
+  "version": "2.2.0",
+  "description": "Google SEO APIs integration: Search Console, PageSpeed Insights v5, CrUX field data, Indexing API, and GA4 organic traffic. Provides real Core Web Vitals, indexation status, and search performance data.",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "google-api",
+    "search-console",
+    "pagespeed"
+  ],
+  "files": [
+    "SKILL.md",
+    "assets/templates/cwv-audit-report.md",
+    "assets/templates/gsc-performance-report.md",
+    "assets/templates/indexation-status-report.md",
+    "references/auth-setup.md",
+    "references/dma-consent-mode-v2.md",
+    "references/ga4-data-api.md",
+    "references/indexing-api.md",
+    "references/keyword-planner-api.md",
+    "references/nlp-api.md",
+    "references/pagespeed-crux-api.md",
+    "references/rate-limits-quotas.md",
+    "references/search-console-api.md",
+    "references/supplementary-apis.md",
+    "references/youtube-api.md"
+  ],
+  "kaged_version": ">=0.4.0",
+  "license": "MIT"
+}
